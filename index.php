@@ -9,7 +9,7 @@
     <div id="base_block">
       <?php include 'blocks/header.php' ?>
       <div id="content">
-        content
+        <div id="page_title">Главная страница спортивного портала</div>
       </div>
       <?php include 'blocks/footer.php' ?>
     </div>

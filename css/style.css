@@ -7,7 +7,7 @@ body {
 #base_block {
     margin: 0 auto;
     width: 800px;
-    background-color: #79E836;
+    background-color: white;
 }
 
 header {
@@ -16,4 +16,35 @@ header {
 
 footer {
     background-color: #3BFFA6;
+}
+
+#auth, #user_welcome_message {
+    text-align: right;
+    padding: 10px;
+}
+
+#auth a {
+    border-bottom: 2px dashed #C9FF3B;
+    text-decoration: none;
+}
+
+#auth a:hover {
+    border-bottom: 2px dashed white;
+    color: white;
+    text-decoration: none;
+}
+
+#user_welcome_message {
+    
+}
+
+#page_title {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#register_table {
+    margin: 0 auto;
 }
