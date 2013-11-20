@@ -1,0 +1,19 @@
+body {
+    background-color: #C9FF3B;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+#base_block {
+    margin: 0 auto;
+    width: 800px;
+    background-color: #79E836;
+}
+
+header {
+    background-color: #3BFFA6;
+}
+
+footer {
+    background-color: #3BFFA6;
+}
