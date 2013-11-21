@@ -18,20 +18,22 @@ footer {
     background-color: #3BFFA6;
 }
 
-#auth, #user_welcome_message {
+#auth, #user_welcome_message, #control_buttons {
     text-align: right;
     padding: 10px;
 }
 
-#auth a {
+#auth a, #control_buttons a{
     border-bottom: 2px dashed #C9FF3B;
     text-decoration: none;
+    padding-left: 5px;
 }
 
-#auth a:hover {
+#auth a:hover, #control_buttons a:hover {
     border-bottom: 2px dashed white;
     color: white;
     text-decoration: none;
+    padding-left: 5px;
 }
 
 #user_welcome_message {
