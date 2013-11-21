@@ -14,11 +14,11 @@
       $hash = md5($str);
       $query = sprintf("UPDATE users SET secret_hash='%s' WHERE login='%s'", $hash, $login);
       mysql_query($query);
-      setcookie("secret_hash", $hash);
+      setcookie("sportbook_shash", $hash);
       echo '<meta http-equiv="refresh" content="0;URL=index.php">';
     }
-  } else if(isset($_GET['kill'])) {
-      setcookie("bsecret", "", time()-3600);
+  } else if(isset($_GET['logout'])) {
+      setcookie("sportbook_shash", "", time()-3600);
     echo '<meta http-equiv="refresh" content="0;URL=index.php">';
   } else echo '<meta http-equiv="refresh" content="0;URL=autorization.php">';
 
