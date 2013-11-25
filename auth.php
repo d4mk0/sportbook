@@ -6,7 +6,7 @@
     $query = sprintf("SELECT * FROM users WHERE login='%s' AND encrypted_password='%s'", $login, $encrypted_password);
     $result = mysql_query($query);
     if((mysql_num_rows($result) == 0)) {
-      echo "<script>alert('Неверный логин и/или пароль');</script>";
+      echo "<script>alert('Uncorrect login and/or password');</script>";
       echo '<meta http-equiv="refresh" content="0;URL=login.php">';
     } else {
       $row = mysql_fetch_array($result);

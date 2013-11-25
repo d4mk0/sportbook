@@ -9,7 +9,7 @@
     $lastname = trim($_POST['lastname']);
     $email = trim($_POST['email']);
     $birthday = trim($_POST['birthday']);
-    if ($login == "" || $pass == "" || $firstname == "" || $lastname == "" || $email = "" || $birthday = "") {
+    if ($login == "" || $pass == "" || $firstname == "" || $lastname == "" || $email == "" || $birthday == "") {
       echo "<script>alert('Вы ввели не все данные');</script>";
       echo '<meta http-equiv="refresh" content="0;URL=../register.php">';
     } else {
