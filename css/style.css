@@ -16,6 +16,9 @@ header {
 
 footer {
     background-color: #3BFFA6;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 
 #auth, #user_welcome_message, #control_buttons {
@@ -48,5 +51,125 @@ footer {
 }
 
 #register_table {
-    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.article {
+    width: 400px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.article .title {
+    margin: 15px 0;
+}
+
+.article .title a {
+    text-decoration: none;
+    color: #006496;
+    font-size: 18px;
+}
+
+.article .title a:hover {
+    text-decoration: underline;
+}
+
+.article .description {
+    text-align: justify;
+}
+
+.article .date {
+    margin: 10px 0;
+    color: #7f7f7f;
+}
+
+.article .read_more, .article .author {
+    margin: 15px 0;
+}
+
+.article .views {
+    float: right;
+    color: #7f7f7f
+}
+
+.articles_menu {
+    text-align: center;
+    padding: 15px;
+}
+
+.articles_menu span {
+    margin: 15px;
+}
+
+.pages {
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.pages span {
+    margin: 7px;
+}
+
+#messages {
+    margin: 20px auto;
+    width: 500px;
+}
+
+#messages .description:hover {
+    text-decoration: underline;
+}
+
+#messages .message {
+    margin: 20px 0;
+}
+
+#article {
+    margin: 20px auto;
+    width: 600px;
+}
+
+#article .title {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+#article .content {
+    text-indent: 20px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+#article .views {
+    float: right;
+    color: #7f7f7f
+}
+
+#article .author {
+    margin: 15px 0;
+}
+
+#matches {
+    margin: 20px auto;
+    width: 600px;
+    text-align: justify;
+}
+
+#matches .match {
+    font-size: 16px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+#matches .date {
+    color: lightgreen;
+}
+
+#matches .opponents {
+    color: #9CB8EB;
+    margin: 8px;
 }
