@@ -173,3 +173,20 @@ footer {
     color: #9CB8EB;
     margin: 8px;
 }
+
+#t_article {
+    padding: 15px;
+    border-collapse: collapse;
+    margin:0 auto;
+}
+
+#t_article th {
+    border:1px solid #ccc;
+    padding: 10px;
+}
+
+#t_article td {
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
