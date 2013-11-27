@@ -21,7 +21,7 @@
         lastname, email, birthday) VALUES ('%s','%s','%s','%s','%s','%s')",
         $login, $encrypred_password, $firstname, $lastname, $email, $birthday);
         mysql_query($query);
-        echo '<meta http-equiv="refresh" content="0;URL=../index.php">';
+        echo '<meta http-equiv="refresh" content="0;URL=../login.php">';
       }
     }
   } else echo '<meta http-equiv="refresh" content="0;URL=../register.php">';
